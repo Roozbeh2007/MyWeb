@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body{
+    background-color: rgba(34,4,54,255);
+}
+.menu{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    background-color: rgba(1,10,45,255);
+    color: whitesmoke;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+.menu .left ul li a{
+    color: whitesmoke;
+    font-size: 15   px;
+}
+.menu .left ul li a:hover{
+    color: rgba(1,10,45,255);
+    background-color: whitesmoke;
+}
+.right{
+    padding: 10px;
+}
+
+
+.gallery{
+    display: flex;
+    flex-flow: row wrap;
+    width: 1210px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.item{
+    margin: 1px;
+}
+p{
+    font-size: 10px;
+    color: whitesmoke;
+}
