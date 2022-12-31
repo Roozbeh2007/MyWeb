@@ -16,14 +16,15 @@ body{
 }
 li{
     list-style-type: none;
-    display: inline-block;
 }
 a{
     text-decoration: none;
 }
 .menu .left ul li a{
     color: whitesmoke;
-    font-size: 15   px;
+    font-size: 15 px;
+    padding: 10px;
+    line-height: 50px;
 }
 .menu .left ul li a:hover{
     color: rgba(1,10,45,255);
@@ -31,6 +32,10 @@ a{
 }
 .right{
     padding: 10px;
+}
+.left{
+    display: flex;
+    flex-flow: row wrap;
 }
 
 
